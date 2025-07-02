@@ -1,10 +1,26 @@
 # 🦷 Teeth Classification with CNN
-
 This project performs image classification of dental images into 7 classes using a CNN built from scratch in TensorFlow.
+
+## 📚 Dataset Description
+The dataset contains RGB images of teeth categorized into **7 dental conditions**:
+- **CaS** – Candidiasis
+- **CoS** – Composite restoration
+- **Gum** – Gum-related condition
+- **MC** – Metal crown
+- **OC** – Orthodontic case
+- **OLP** – Oral lichen planus
+- **OT** – Other conditions
+
+### 📂 Structure:
+The dataset is pre-split into three folders:
+Teeth_Dataset/
+├── Training/
+├── Validation/
+└── Testing/
 
 ## 📁 Files Included
 - `Teeth_Classification.ipynb`: full pipeline with preprocessing, augmentation, training, and evaluation
-- `/plots/`: visual outputs like class distribution and confusion matrix
+- `plots`: visual outputs like class distribution and confusion matrix
 - `requirements.txt`: Python packages used
 
 ## 🔧 How to Run
@@ -20,4 +36,4 @@ This project performs image classification of dental images into 7 classes using
 ## 📊 Results
 - Training Accuracy: 75%
 - Testing Accuracy: 77%
-- Confusion Matrix and Plots in `/plots/`
+- Confusion Matrix and Plots in `plots` folder
