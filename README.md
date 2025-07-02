@@ -11,13 +11,6 @@ The dataset contains RGB images of teeth categorized into **7 dental conditions*
 - **OLP** – Oral lichen planus
 - **OT** – Other conditions
 
-### 📂 Structure:
-The dataset is pre-split into three folders:
-Teeth_Dataset/
-├── Training/
-├── Validation/
-└── Testing/
-
 ## 📁 Files Included
 - `Teeth_Classification.ipynb`: full pipeline with preprocessing, augmentation, training, and evaluation
 - `plots`: visual outputs like class distribution and confusion matrix
